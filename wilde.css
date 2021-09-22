@@ -43,7 +43,7 @@ table{
     width:40%;
 }
 th{
-    color:rgb(230, 38, 185);
+    color:rgb(13, 117, 77);
     background-color: rgb(176, 210, 230);
     border: 1px solid black;
     text-align: center;
@@ -61,5 +61,24 @@ tr:nth-child(even){
     color:rgb(11, 97, 126);
     filter: blur(2px);
     border: solid 2px rgb(228, 64, 64);
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left;
+    color:#000;
+    background-color: rgb(94, 224, 170);
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+    color: rgba(255, 255, 240, 0.911);
+}
+ul.navbar-horizontal a:hover {
+    background-color: darkslateblue;
+    color:yellowgreen;
 }
 
