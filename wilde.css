@@ -30,3 +30,26 @@
 .GUIDO{
     color: navy;
 }
+table{
+    border:1px solid black;
+    padding: 25px 25px 25px;
+    margin: 30px 30px 50px 100px;
+    width:40%;
+}
+th{
+    color:rgb(230, 38, 185);
+    background-color: rgb(176, 210, 230);
+    border: 1px solid black;
+    text-align: center;
+
+}
+td{
+    color:rgb(57, 14, 211);
+    border: 1px solid black;
+    text-align: center;
+
+}
+tr:nth-child(even){
+    background-color: rgb(194, 185, 185);
+}
+
